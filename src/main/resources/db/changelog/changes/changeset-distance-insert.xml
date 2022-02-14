@@ -6,10 +6,11 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
     <changeSet author="admin" id="2">
-        <insert tableName="person">
+        <insert tableName="distance">
             <column name="id" valueNumeric="1"/>
-            <column name="name" value="Tom"/>
-            <column name="address" value="USA"/>
+            <column name="from city" value="Samara"/>
+            <column name="to city" value="Toliatti"/>
+            <column name="distance" value="9"/>
         </insert>
     </changeSet>
 </databaseChangeLog>
